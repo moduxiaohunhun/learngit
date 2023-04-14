@@ -29,14 +29,14 @@
             },
             "attrs": {
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
             "shape": "process",
-            "id": "5d287ccd-dc4c-4966-a719-738756aa415a",
             "zIndex": 1,
+            "id": "5d287ccd-dc4c-4966-a719-738756aa415a",
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -44,8 +44,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "209d0951-dc63-4e52-bbdf-757e43362f40",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "2222",
+                  "mitigation": "333",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": "1"
+                }
+              ]
             }
           },
           {
@@ -65,8 +79,8 @@
               }
             },
             "shape": "actor",
-            "id": "44e6c1fc-0ee5-4084-9ce6-36f1b4571410",
             "zIndex": 2,
+            "id": "44e6c1fc-0ee5-4084-9ce6-36f1b4571410",
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -127,6 +141,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
